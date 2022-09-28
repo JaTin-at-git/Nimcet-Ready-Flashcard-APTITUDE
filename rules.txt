@@ -1,0 +1,21 @@
+
+Naming id of input checkboxes for topic selection
+>The id shall be stored as key and corresponding question variable shall be assigned as value in js.js
+
+>question and answer are hardcoded as discussed in readme file
+
+>the structure of the qna in questionsAndAnswersAsText.js shall be as discussed below
+let qnaAsText = "" +
+    "Q: There must be some topic/question/answer body" +
+    "A:ABCDEF will be displayed as BCDEF... the first character of question and answer is omitted while displayed" +
+    "" +
+    "Q: latex expressions must be typed inside $${...latex...}$$ " +
+    "A:$This is a latex expression, so it starts with dollar sign $${\\frac{1}{2}\\left(n-1\\right)!}$$" +
+    "";
+
+> Q: stands for question
+> A: stands for answer
+
+> the actual question/answer can NOT have Q:/A: in it's body
+> there must at least one non-whitespace character after Q:/A:
+> statements that has latex in it's body must start with $ sign
